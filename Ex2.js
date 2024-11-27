@@ -1,3 +1,5 @@
+// פהמי והבי + מאור דוד
+
 'use strict'
 
 // Define the upper limit for checking primes
