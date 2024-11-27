@@ -9,11 +9,8 @@ for (let i = 0; i < numbers.length; i++) {
     const str = numbers[i] + ""; 
 
     for (let j = 0; j < str.length; j++) {
-    
-    if (str[j] === '0') {
 
-        zeroCount++;
-
+        zeroCount += (str[j] === '0' ? 1 : 0);
     }
 }
 }
